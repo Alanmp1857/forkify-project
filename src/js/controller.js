@@ -11,25 +11,12 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 ///////////////////////////////////////
 // https://forkify-api.herokuapp.com/v2
-
-// const renderSpinner = function (parentEl) {
-//   const markup = `
-//       <div class="spinner">
-//       <svg>
-//         <use href="${icons}#icon-loader"></use>
-//       </svg>
-//       </div>
-//   `;
-//   parentEl.innerHTML = '';
-//   parentEl.insertAdjacentHTML('afterbegin', markup);
-// };
-///////////////////////////////////////////////
 
 const controlRecipes = async function () {
   try {
